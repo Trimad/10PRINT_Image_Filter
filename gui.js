@@ -13,7 +13,8 @@ function changeLine() {
 }
 
 function saveImage() {
-  saveCanvas('canvas', 'png');
+  saveCanvas('canvas', '.png');
+  //saveCanvas(c, 'myCanvas', 'png');
 }
 
 function changeBowing() {
