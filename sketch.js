@@ -26,12 +26,12 @@ function setup() {
 
   lineType = 'line';
   noLoop();
-  
-}
 
+}
+var c;
 function drawImg() {
 
-  createCanvas(img.width, img.height);
+  c = createCanvas(img.width, img.height);
   strokeWeight(weight);
   noFill();
   img.loadPixels();
